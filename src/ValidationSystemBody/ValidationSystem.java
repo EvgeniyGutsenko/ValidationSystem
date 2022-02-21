@@ -12,5 +12,5 @@ public class ValidationSystem {
      public static void validate(Integer input) throws ValidationFailedException {
             Validator<Integer> validator = new IntegerValidator();
             validator.validate(input);
-}
+    }
 }
